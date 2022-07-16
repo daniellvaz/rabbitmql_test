@@ -1,10 +1,10 @@
 {
-  "name": "@microservice/customer",
+  "name": "@microservice/ecommerce",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",

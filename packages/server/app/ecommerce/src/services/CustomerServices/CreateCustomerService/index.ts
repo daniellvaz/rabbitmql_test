@@ -1,5 +1,5 @@
-import { AddressModel } from './../../models/Address';
-import { mysqlRepository } from './../../repositories/mysqlRepository/index';
+import { AddressModel } from './../../../models/Address';
+import { mysqlRepository } from './../../../repositories/mysqlRepository';
 import CreateCustomerService from "./CreateCustomerService";
 import CreateCustomerController from "./CreateCustomerController";
 

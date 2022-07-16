@@ -7,7 +7,9 @@
   "author": "daniellvaz <daniellmvaz@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:app-1": "yarn workspace @microservice/app-1 dev"
+    "start:api": "yarn workspace @microservice/api dev",
+    "start:ecommerce": "yarn workspace @microservice/ecommerce dev",
+    "start:shipping": "yarn workspace @microservice/shipping dev"
   },
   "workspaces": [
     "packages/**/*"

@@ -1,5 +1,5 @@
 import mongoose  from 'mongoose';
-import Customer from '../../entities/Customer';
+import Customer from '../../../entities/Customer';
 import { CustomerDTO, Address } from './CustomerDTO';
 import Mysql from '@microservice/orm';
 

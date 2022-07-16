@@ -16,8 +16,8 @@ export default class CreateCustomerService {
 
       const query = `
         INSERT INTO deliveries 
-        (id, sale_id, user_id, tracking_code) 
-        VALUES ("${newDelivery._id}", "${newDelivery.saleId}", "${newDelivery.saleId}", "${newDelivery.trackingCode}")
+        (id, sale_id, customer_id, tracking_code) 
+        VALUES ("${newDelivery._id}", "${newDelivery.saleId}", "${newDelivery.customerId}", "${newDelivery.trackingCode}")
       `
 
       await this.mysqlRepository.raw(query);
