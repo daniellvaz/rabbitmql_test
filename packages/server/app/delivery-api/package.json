@@ -1,5 +1,5 @@
 {
-  "name": "@microservice/app-2",
+  "name": "@microservice/delivery",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,13 +7,10 @@
     "dev": "ts-node-dev server.ts"
   },
   "dependencies": {
-    "@types/amqplib": "^0.8.2",
-    "amqplib": "^0.10.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "mongoose": "^6.4.4",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "@microservice/orm": "*"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",

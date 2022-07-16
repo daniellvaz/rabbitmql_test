@@ -1,4 +1,4 @@
-import { Connection, ConnectionOptions } from "mysql2"
+import { ConnectionOptions } from "mysql2"
 import mysql from "mysql2/promise"
 
 export default class Mysql {

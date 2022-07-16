@@ -1,7 +1,7 @@
 import mongoose  from 'mongoose';
 import Customer from '../../entities/Customer';
 import { CustomerDTO, Address } from './CustomerDTO';
-import Mysql from '../../repositories/mysqlRepository/Mysql';
+import Mysql from '@microservice/orm';
 
 export default class CreateCustomerService {
   constructor(

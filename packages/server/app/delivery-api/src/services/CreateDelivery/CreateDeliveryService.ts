@@ -1,7 +1,7 @@
 import { v4 as uuid } from "uuid";
 import { sales } from "../../data/products.json"
 import { Delivery } from './../../entities/Delivery';
-import Mysql from '../../repository/mysqlRepository/Mysql';
+import Mysql from '@microservice/orm';
 
 export default class CreateCustomerService {
   constructor(

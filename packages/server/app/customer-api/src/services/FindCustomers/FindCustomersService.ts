@@ -1,6 +1,6 @@
 import { Address } from './../CreateCustomer/CustomerDTO';
 import mongoose from 'mongoose';
-import Mysql from '../../repositories/mysqlRepository/Mysql';
+import Mysql from '@microservice/orm';
 import Customer from '../../entities/Customer';
 
 export default class FindCustomersService {

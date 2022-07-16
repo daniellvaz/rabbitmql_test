@@ -1,0 +1,23 @@
+{
+  "name": "microservice",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daniellvaz/rabbitmql_test.git",
+  "author": "daniellvaz <daniellmvaz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:app-1": "yarn workspace @microservice/app-1 dev"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "dependencies": {
+    "@types/amqplib": "^0.8.2",
+    "amqplib": "^0.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
+  }
+}
