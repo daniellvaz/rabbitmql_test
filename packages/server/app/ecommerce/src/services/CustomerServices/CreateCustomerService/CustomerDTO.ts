@@ -1,9 +1,9 @@
 export interface Address {
-  userId: number,
   street: string;
   number: number;
   zipCode: string;
   city: string;
+  country: string;
 }
 
 export interface CustomerDTO {
